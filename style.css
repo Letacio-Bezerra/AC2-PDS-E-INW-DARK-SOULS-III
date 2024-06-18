@@ -1,20 +1,57 @@
 body{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 100%;
+    background-color: #000000;
+    max-width: 1200px;
+    max-height: 1937px;
+    margin: 0;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+    }
 }
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1280px;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
+    margin-top: 2%;
     margin-right: 5%;
     gap: 10%;
-    font-size: 24px;
+    font-size: 18px;
 }
 
+.meio2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}''
+
+.bosses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+    margin: 4%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.social{
+    margin-top: 3%;
+}
